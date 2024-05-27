@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>大运国际企业介绍</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        .content {
+            padding: 20px;
+            background: #ffffff;
+            margin-top: 20px;
+        }
+        footer {
+            background: #35424a;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        .social {
+            list-style: none;
+            padding: 0;
+        }
+        .social li {
+            display: inline;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>大运国际</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#about">简介</a></li>
+                    <li><a href="#contact">联系方式</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container content" id="about">
+        <h2>企业简介</h2>
+        <p>大运国际致力于提供一流的物流解决方案，覆盖全球的物流网络，确保客户的货物安全、快速地到达目的地。我们的专业团队拥有丰富的行业经验，能够根据客户需求提供个性化的服务。</p>
+    </div>
+
+    <div class="container content" id="contact">
+        <h2>联系方式</h2>
+        <p>地址: 深圳市宝安区新安街道22区勤诚达大厦 1005-1012</p>
+        <p>电话: 123-456-7890</p>
+        <p>邮箱: contact@dayun.com</p>
+    </div>
+
+    <footer>
+        <div class="container">
+            <ul class="social">
+                <li><a href="#">微博</a></li>
+                <li><a href="#">微信</a></li>
+                <li><a href="#">LinkedIn</a></li>
+            </ul>
+            <p>© 2024 大运国际. 版权所有.</p>
+        </div>
+    </footer>
+</body>
+</html>
